@@ -5,14 +5,14 @@ let imagebtn=document.querySelector("#image")
 let image=document.querySelector("#image img")
 let imageinput=document.querySelector("#image input")
 
-// const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyArHNgT65ivTdYvrQfnj3k1tZVa9HYSPUQ"
-// let user={
-//     message:null,
-//     file:{
-//         mime_type: null,
-//         data: null
-//     }
-// }
+const Api_Url="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyArHNgT65ivTdYvrQfnj3k1tZVa9HYSPUQ"
+let user={
+    message:null,
+    file:{
+        mime_type: null,
+        data: null
+    }
+}
 
 
   
